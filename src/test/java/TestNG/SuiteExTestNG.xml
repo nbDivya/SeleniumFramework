@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+    <test name="Test Cases">
+        <classes>
+            <class name="TestNG.dependanciesMgmt"/>
+            <class name="TestNG.driveACar"/>
+        </classes>
+
+    </test>
+</suite>
+
+
+

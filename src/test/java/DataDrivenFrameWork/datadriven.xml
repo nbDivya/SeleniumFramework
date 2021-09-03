@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login Suite">
+
+    <test name="Login testcases">
+        <classes>
+            <class name="DataDrivenFrameWork.correctUsername"/>
+
+        </classes>
+    </test>
+
+    <test name="correctPassword">
+        <classes>
+            <class name="DataDrivenFrameWork.correctPassword"/>
+
+        </classes>
+    </test>
+
+    <test name="BothCorrect">
+        <classes>
+            <class name="DataDrivenFrameWork.BothCorrect"/>
+
+        </classes>
+    </test>
+
+    <test name="BothIncorrect">
+        <classes>
+            <class name="DataDrivenFrameWork.BothIncorrect"/>
+
+        </classes>
+    </test>
+
+
+
+</suite>
